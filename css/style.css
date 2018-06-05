@@ -95,7 +95,7 @@ body {
     background-image: url("../images/Photo/RockTwins.jpg");
     /* Set a specific height */
     /* height: 500px;  */
-    height: 150vh;
+    height: 140vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -301,8 +301,8 @@ body {
 }
 
 .dev_icons-spacing {
-    width: 11%;
-    margin: 2%;
+    width: 55px;
+    margin: 10px;
 }
 
 .footer-style {

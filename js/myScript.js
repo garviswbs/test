@@ -116,15 +116,13 @@ $(document).ready(function () {
     $('#i-wpress').hover(function () {
         $('.i-wpress').toggle();
     });
-
-
 });
 /////////////////////// Spinning Intro Logo
 
 $(".intro-image img").hover(function () {
-        $(".intro-image img").css("transform", "rotate(360deg)");
-        $(".intro-image-2 img").css("transform", "rotate(-360deg)");
-        $(".intro-image img").css("padding", "44px");
+        $(".intro-image img").css("transform", "rotate(-360deg)");
+        $(".intro-image-2 img").css("transform", "rotate(360deg)");
+        $(".intro-image img").css("padding", "74px");
         $(".intro-image-2 img").css("padding", "44px");
     },
     function () {
