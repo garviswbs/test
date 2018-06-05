@@ -8,6 +8,36 @@ body {
     padding: 1;
 }
 
+.blue-container {
+    background-image: url(../wormz.png);
+    padding-top: 55px;
+    padding-bottom: 77px;
+    margin-top: 11px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.red-container {
+    background-image: url(../wormz-red.gif);
+    padding-top: 55px;
+    padding-bottom: 77px;
+    margin-top: 11px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.green-container {
+    background-image: url(../wormz-green.gif);
+    padding-top: 55px;
+    padding-bottom: 77px;
+    margin-top: 11px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
 .i-html,
 .i-css,
 .i-js,
@@ -272,6 +302,20 @@ body {
     /* Standard syntax (must be last) */
 }
 
+.grad1-inset {
+    height: fit-content;
+    padding: 22px;
+    background: rgb(255, 255, 255, .90);
+    margin-bottom: 33px;
+    border-top-right-radius: 44px;
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* For browsers that do not support gradients */
+    /* background: linear-gradient(to right, rgba(255, 152, 152, 0.288), rgb(255, 255, 255));
+    border: inset 3px rgb(91, 95, 156, .7);
+    border-radius: 3px; */
+    /* Standard syntax (must be last) */
+}
+
 /* .hover_title{
     
 }
@@ -351,7 +395,7 @@ body {
 
 /* ---- grid-item ---- */
 
-.grid-item {
+.replace-g-item {
     /* width: 50px;
     height: 50px; */
     /* float: left;
@@ -363,6 +407,29 @@ body {
     /* margin-bottom: 50px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
+}
+
+.grid-item {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.07);
+    transition: box-shadow .3s;
+    /* border: 2px solid #333; */
+    /* border-color: hsla(0, 0%, 0%, 0.5); */
+    /* border-radius: 5px; */
+    padding: 15px;
+    margin-bottom: 44px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width: 5%;
+    height: 50px;
+}
+
+.grid-sizer {
+    width: 5%
+}
+
+.gutter-sizer {
+    width: 5%;
 }
 
 .grid-item--no-border {
@@ -378,7 +445,9 @@ body {
     /* border-radius: 5px; */
 }
 
-.grid-item--width25p {
+/* OLD */
+
+/* .grid-item--width25p {
     width: 30%;
 }
 
@@ -388,46 +457,86 @@ body {
 
 .grid-item--width100p {
     width: 100%;
+} */
+
+.grid-item--width-15 {
+    width: 15%;
 }
 
-.grid-item--width2 {
-    width: 150px;
+.grid-item--width-20 {
+    width: 20%;
 }
 
-.grid-item--width3 {
-    width: 250px;
+.grid-item--width-25 {
+    width: 25%;
 }
 
-.grid-item--width4 {
-    width: 350px;
+.grid-item--width-30 {
+    width: 30%;
 }
 
-.grid-item--width5 {
-    width: 450px;
+.grid-item--width-35 {
+    width: 35%;
 }
 
-.grid-item--width6 {
-    width: 550px;
+.grid-item--width-40 {
+    width: 40%;
 }
 
-.grid-item--width7 {
-    width: 650px;
+.grid-item--width-45 {
+    width: 45%;
 }
 
-.grid-item--width8 {
-    width: 750px;
+.grid-item--width-50 {
+    width: 50%;
 }
 
-.grid-item--width9 {
-    width: 850px;
+.grid-item--width-55 {
+    width: 55%;
 }
 
-.grid-item--width10 {
-    width: 950px;
+.grid-item--width-60 {
+    width: 60%;
+}
+
+.grid-item--width-65 {
+    width: 65%;
+}
+
+.grid-item--width-70 {
+    width: 70%;
+}
+
+.grid-item--width-75 {
+    width: 75%;
+}
+
+.grid-item--width-80 {
+    width: 80%;
+}
+
+.grid-item--width-85 {
+    width: 85%;
+}
+
+.grid-item--width-90 {
+    width: 90%;
+}
+
+.grid-item--width-95 {
+    width: 95%;
+}
+
+.grid-item--width-100 {
+    width: 100%;
 }
 
 .grid-item--width-fluid {
     width: 100%;
+}
+
+.grid-item--height-fit {
+    height: fit-content;
 }
 
 /* Height */

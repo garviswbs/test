@@ -2,8 +2,9 @@ $(document).ready(function () {
     // external js: masonry.pkgd.js
     $('.grid').masonry({
         itemSelector: '.grid-item',
-        columnWidth: 50,
-        gutter: 50
+        columnWidth: '.grid-sizer',
+        gutter: '.gutter-sizer',
+        percentPosition: true
     });
 });
 
