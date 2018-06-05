@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<path id="Triangle" fill="#FFFFFF" d="M80.854,124.695l51.44-26.652l-51.44-26.838V124.695z"/>
+<path id="The_Sharpness" opacity="0.12" fill="#420000" enable-background="new    " d="M80.854,71.205l45.104,30.119l6.337-3.281
+	L80.854,71.205z"/>
+<g id="Lozenge">
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1565.248" y1="1008.1309" x2="1565.248" y2="1693.7715" gradientTransform="matrix(0.1953 0 0 0.1953 -205.1953 -163.8477)">
+			<stop  offset="0" style="stop-color:#E52D27"/>
+			<stop  offset="1" style="stop-color:#BF171D"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M193.801,61.942c0,0-1.864-13.121-7.567-18.899c-7.231-7.586-15.357-7.623-19.067-8.07
+			c-26.651-1.92-66.611-1.92-66.611-1.92h-0.075c0,0-39.959,0-66.612,1.92c-3.708,0.447-11.835,0.484-19.067,8.07
+			c-5.703,5.778-7.566,18.899-7.566,18.899S5.333,77.336,5.333,92.75v14.444c0,15.414,1.901,30.809,1.901,30.809
+			s1.864,13.121,7.566,18.898c7.25,7.586,16.756,7.344,20.986,8.146c15.228,1.454,64.73,1.92,64.73,1.92s39.997-0.057,66.648-1.994
+			c3.728-0.448,11.836-0.485,19.067-8.071c5.703-5.777,7.567-18.898,7.567-18.898s1.9-15.414,1.9-30.809V92.75
+			C195.701,77.336,193.801,61.942,193.801,61.942z M80.854,124.695v-53.49l51.44,26.838L80.854,124.695z"/>
+	</g>
+</g>
+</svg>

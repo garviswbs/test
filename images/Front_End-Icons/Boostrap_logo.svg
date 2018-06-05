@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" sodipodi:docname="twitter_bootstrap_logo.svg" inkscape:version="0.48.1 r9760" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2000px"
+	 height="2008.275px" viewBox="0 0 2000 2008.275" enable-background="new 0 0 2000 2008.275" xml:space="preserve">
+<sodipodi:namedview  id="namedview2996" inkscape:pageshadow="2" inkscape:window-maximized="0" fit-margin-right="0" inkscape:window-width="864" inkscape:pageopacity="0" inkscape:window-height="623" fit-margin-bottom="0" inkscape:current-layer="svg2" inkscape:window-x="0" inkscape:window-y="0" guidetolerance="10" inkscape:cy="407.66551" inkscape:zoom="0.24896372" gridtolerance="10" objecttolerance="10" showgrid="false" fit-margin-left="0" inkscape:cx="116.80866" borderopacity="1" bordercolor="#666666" pagecolor="#ffffff" fit-margin-top="0">
+	</sodipodi:namedview>
+<g id="layer1" transform="matrix(15.623041,0,0,15.623041,-3987.6024,-6644.8835)">
+	
+		<linearGradient id="rect3050_1_" gradientUnits="userSpaceOnUse" x1="330.1781" y1="463.5034" x2="442.6465" y2="577.9363" gradientTransform="matrix(15.623 0 0 -15.623 -4895.6479 7788.4785)">
+		<stop  offset="0" style="stop-color:#070135"/>
+		<stop  offset="1" style="stop-color:#612D50"/>
+	</linearGradient>
+	<path id="rect3050" fill="url(#rect3050_1_)" d="M275.997,425.57h86.438c11.392,0,20.627,9.235,20.627,20.627v86.966
+		c0,11.392-9.235,20.627-20.627,20.627h-86.438c-11.392,0-20.627-9.235-20.627-20.627v-86.966
+		C255.37,434.805,264.605,425.57,275.997,425.57z"/>
+	<g id="text3836" transform="scale(1.0052013,0.99482561)">
+		<path id="path3841" inkscape:connector-curvature="0" fill="#FFFFFF" d="M318.523,483.27c3.244,0,5.704-0.713,7.38-2.139
+			c1.675-1.426,2.513-3.529,2.513-6.31c0-2.745-0.838-4.831-2.513-6.257c-1.676-1.462-4.136-2.192-7.38-2.192h-11.39v16.898H318.523
+			 M319.219,518.19c4.135,0,7.237-0.873,9.305-2.62c2.103-1.747,3.155-4.385,3.155-7.914c0-3.458-1.034-6.043-3.102-7.754
+			c-2.068-1.747-5.187-2.62-9.358-2.62h-12.086v20.909H319.219 M338.363,489.473c4.421,1.283,7.843,3.654,10.267,7.112
+			c2.424,3.458,3.636,7.701,3.636,12.727c0,7.701-2.603,13.44-7.808,17.219c-5.205,3.779-13.12,5.669-23.743,5.669h-34.171v-79.84
+			h30.909c11.087,0,19.109,1.676,24.064,5.027c4.991,3.351,7.487,8.717,7.487,16.096c0,3.886-0.909,7.201-2.727,9.947
+			C344.459,486.14,341.821,488.154,338.363,489.473"/>
+	</g>
+</g>
+</svg>

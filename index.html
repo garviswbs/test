@@ -6,337 +6,481 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <!-- Bootstcrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- My Stylesheer -->
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Garvis Sloane</title>
 </head>
 
-<body style="background-image:url(./images/diagmonds-light.png)">
-    <nav class="navbar navbar-expand-sm bg-seashell navbar-light fixed-top">
+<body>
+    <!-- Navigation -->
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-2 btn-group-vertical monster ">
+                <button type="button" class="btn code_scroll-btn hover_text" id="development">
+                    <img src='./images/Tech_Icons/code_icon.svg' style="height:44px " />
+                    <p class="nav_text-dev"> &#8669; Development</p>
+                </button>
 
-    </nav>
-    <div class="container-fluid">
-        <div class="row ">
-            <div class="col-md-2">
-                <div class="row">
-                    <div class="col-2 btn-group-vertical ">
-                        <div  id="name_card">
-                            <img src="./images/bobbyhill_sidebar.gif" style="width: 90%; margin-left: auto; margin-right: auto ">
-                        </div>
+                <button type="button" class="btn design_scroll-btn hover_text" id="design">
+                    <img src='./images/Tech_Icons/design_icon.svg' style="height:44px " />
+                    <p class="nav_text-design"> &#8669; Design</p>
+                </button>
 
+                <button type="button" class="btn media_scroll-btn hover_text" id="media">
+                    <img src='./images/Tech_Icons/media_icon.svg' style="height:44px " />
+                    <p class="nav_text-media"> &#8669; Multiedia</p>
+                </button>
 
-                        <div class="grid-item grid-item--width3 grid-item--height4 " id="name_card" style="margin-left: auto; margin-right: auto">
-                            <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item" style="width: 25%">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#dev" role="tab" aria-controls="home" aria-selected="true">1</a>
-                                </li>
-                                <li class="nav-item" style="width: 25%">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#design" role="tab" aria-controls="profile" aria-selected="false">2</a>
-                                </li>
-                                <li class="nav-item" style="width: 25%">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#media" role="tab" aria-controls="contact" aria-selected="false">3</a>
-                                </li>
-                                <li class="nav-item" style="width: 25%">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#info" role="tab" aria-controls="contact" aria-selected="false">4</a>
-                                </li>
-                            </ul> -->
-                            <!-- <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="dev" role="tabpanel" aria-labelledby="home-tab">
-                                    Development
-                                </div>
-                                <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="profile-tab">
-                                    Design
-                                </div>
-                                <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="contact-tab">
-                                    Media
-                                </div>
-                                <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="contact-tab">
-                                    Info
-                                </div>
-                            </div> -->
+                <button type="button" class="btn info_scroll-btn hover_text" id="info">
+                    <img src='./images/Tech_Icons/info_icon.svg' style="height:44px " />
+                    <p class="nav_text-info"> &#8669; Info</p>
+                </button>
+                <p style="margin-left:11px; text-align: center;font-family: 'Lobster', cursive; color: red; font-size:medium;">work in progress</p>
 
 
-                            <!-- Old Nav  -->
-                            <!-- <button type="button" class="btn " id="illi">design</button>
-                            <button type="button" class="btn " id="code">code</button>
-                            <button type="button" class="btn " id="photo">photo</button>
-
-                            <button type="button" class="btn " id="av">media</button>
-                            <button type="button" class="btn " id="tech">about</button> -->
-                        </div>
+            </div>
+        </div>
+    </div>
+    <!-- Parallax Rock Background -->
+    <div class="parallax">
+        <div class="container-fluid top_scroll-anchor">
+            <div class="row" style="height: 90vh">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4 ">
+                    <div class="intro-image" style="position: relative; width:100%; z-index:2;">
+                        <img src="./images/Graphics/Bobby_Intro_Face.svg">
                     </div>
+                    <div class="intro-image-2" style="position: relative; width:100%; z-index:1">
+                        <img src="./images/Graphics/Bobby_Intro_Text.svg">
+                    </div>
+                </div>
+                <div class="col-md-4">
                 </div>
             </div>
 
-            <!-- GALLERY -->
+            <div class="row" style="height: 10vh">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="intro-arrow" style="position: relative;text-align: center;">
+                        <img src="./images/Navigation_Icons/Down_Arrow.svg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Development Title -->
+    <div class="container-fluid code_scroll-anchor " style="position: absolute; bottom: -50vh;">
+        <div class="row ">
+            <div class="col-md-2"></div>
             <div class="col-md-10">
-                <div class=" grid ">
-                    <!-- PIC //// Tower  -->
-                    <div class="grid-item grid-item--width9 photo hover_icon" style="background-image: url(./images/Photo/RockTwins.jpg) ; background-size:
-                        cover; background-position: center;" id="intro_card" alt="Rocafeller Plaza, NYC ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px" />
-                        </a>
-                    </div>
-                    <!-- DEV -->
-                    <div class="grid-item grid-item--width9 grid-item--height1" id="dev_card" style=" background-image: url(./images/dev_strip.gif) ; background-size:
-                    cover; background-position: center;"></div>
-
-                    <div class="grid-item grid-item--width6 grid-item--height4 code hover_icon" style="background-image: url(./images/BT_Card.gif)"
-                        id="intro_card " alt="Rocafeller Plaza, NYC ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/fullstack.svg' style="height:33px " />
-                        </a>
-                    </div>
-
-                    <div class="grid-item grid-item--width9 grid-item--height1 " id="dev_card " style=" background-image:
-                        url(./images/dev_strip.gif) ; background-size: cover; background-position: center; "></div>
-
-                    <!-- Multimedai -->
-                    <div class="grid-item grid-item--width9 grid-item--height1 " id="dev_card " style=" background-image:
-                        url(./images/dev_strip.gif) ; background-size: cover; background-position: center; "></div>
-
-                    <div class="grid-item grid-item--width4 grid-item--height5 photo hover_icon " style="background-image:
-                        url(./images/Photo/TINT-windowauto.jpg) ; background-size: cover; background-position: center;
-                        " alt="Cornwall, UK ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <!-- PIC //// Dogs  -->
-                    <div class="grid-item grid-item--width5 grid-item--height3 photo hover_icon " style="background-image:
-                        url(./images/Photo/DSC04028_edited_crop_rotate.png) ; background-size: cover; background-position: center;
-                        " alt="Armenia ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <!-- PIC //// Tribeca  -->
-                    <div class="grid-item grid-item--width3 grid-item--height5 photo hover_icon " style="background-image:
-                        url(./images/Photo/Evil.jpg) ; background-size: cover; background-position: center; " alt="Tribeca, NYC ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <!-- PIC //// Austria  -->
-                    <div class="grid-item grid-item--width4 grid-item--height3 photo hover_icon " style="background-image:
-                        url(./images/Photo/bobmarg-Auto.jpg) ; background-size: cover; background-position: center; " alt="Cornwall,
-                        UK ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <!-- PIC //// Florence  -->
-                    <div class="grid-item grid-item--width5 grid-item--height4 photo hover_icon " style="background-image:
-                        url(./images/Photo/FlorenceWindow.jpg) ; background-size: cover; background-position: center; "
-                        alt="Cornwall,
-                        UK ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <!-- PIC //// Chella  -->
-                    <div class="grid-item grid-item--width3 grid-item--height4 photo hover_icon " style="background-image:
-                        url(./images/Photo/Chella.jpg) ; background-size: cover; background-position: center; " alt="Indio, CA ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-
-                    <!-- PIC //// Garmich  -->
-                    <div class="grid-item grid-item--width6 grid-item--height4 photo hover_icon " style="background-image:
-                        url(./images/Photo/garmishfbainAUTO.jpg) ; background-size:cover; background-position: center; "
-                        alt="Garmisch ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-
-                    <div class="grid-item grid-item--width3 grid-item--height4 tech justify-content-center ">
-                        <img class="icons " src="./images/Program_Icons/after-effects-icon.png " alt="Adobe After Effects
-                        Icon " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/audition-icon.png " alt="Adobe Audition Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/illustrator-icon.png " alt="Adobe Illustrator Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/bridge-icon.png " alt="Adobe Bridge Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/encore-icon.png " alt="Adobe Encore Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/fireworks-icon.png " alt="Adobe Fireworks Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/indesign-icon.png " alt="Adobe InDesign Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/lightroom-icon.png " alt="Adobe Lightroom Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/photoshop-icon.png " alt="Adobe Photoshop Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/prelude-icon.png " alt="Adobe Prelude Icon
-                        " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/premiere-pro-icon.png " alt="Adobe Premiere Pro
-                        Icon " width="66px ">
-                        <img class="icons " src="./images/Program_Icons/speedgrade-icon.png " alt="Adobe Speedgrade Icon
-                        Icon " width="66px ">
-                    </div>
-
-                    <div class="grid-item grid-item--width9 grid-item--height1 " id="dev_card " style=" background-image:
-                        url(./images/dev_strip.gif) ; background-size: cover; background-position: center; "></div>
-                    <!-- 
-                    <div class="grid-item grid-item--width3 grid-item--height4 av ">
-                        <img src="./images/design_card.gif " style="width: 100% ">
-
-                    </div>
-                    <div class="grid-item grid-item--width3 grid-item--height4 av ">
-                        <img src="./images/multimedia_card.gif " style="width: 100% ">
-
-                    </div> -->
-
-                    <div class="grid-item grid-item--width2 grid-item--height2 code ">Giphy</div>
-
-                    <div class="grid-item grid-item--width6 grid-item--height4 photo hover_icon "></div>
-
-                    <div class="grid-item grid-item--width2 grid-item--height2 tech ">Tech</div>
-
-                    <div class="grid-item grid-item--height2 illi hover_icon ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/illi_icon.svg' style="height:33px " />
-                        </a>
-                    </div>
-
-                    <div class="grid-item grid-item--width2 grid-item--height3 av ">A/V</div>
-
-                    <div class="grid-item grid-item--width2 grid-item--height2 illi hover_icon ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-
-                    <div class="grid-item grid-item--width5 grid-item--height3 code hover_icon ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/fullstack.svg' style="height:33px " />
-                        </a>
-                    </div>
-
-                    <div class="grid-item grid-item--width2 photo hover_icon ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-
-                    <div class="grid-item grid-item--width2 grid-item--height2 connect ">Connect</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 av ">A/V</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 about "></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 grid-item--height2 tech ">Tech</div>
-
-                    <div class="grid-item photo hover_icon ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 connect ">Connect</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 av ">A/V</div>
-                    <div class="grid-item connect ">Connect</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 av ">A/V</div>
-                    <div class="grid-item grid-item--width2 grid-item--height3 about "></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 about "></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 grid-item--height2 tech ">Tech</div>
-                    <div class="grid-item code ">Code</div>
-                    <div class="grid-item code ">Code</div>
-                    <div class="grid-item code ">Code</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 av ">A/V</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 about "></div>
-                    <div class="grid-item code ">Code</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 grid-item--height2 tech ">Tech</div>
-
-
-
-                    <div class="grid-item grid-item--width2 grid-item--height2 photo hover_icon ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 connect ">Connect</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 av ">A/V</div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 about "></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 grid-item--height2 tech ">Tech</div>
-                    <div class="grid-item photo hover_icon ">
-                        <a href='#'>
-                            <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
-                        </a>
-                    </div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 connect ">Connect</div>
-
-                </div>
+                <img class="hideme icons" src='./images/Dev_Title.png' style="height:70px " />
             </div>
         </div>
     </div>
 
-
-    <!-- <div class="col-xs-9 " id="main ">
+    <!-- Development Container -->
+    <div class="container-fluid box_shadow" style="background-image:url(./wormz.png) ;padding-top: 55px; padding-bottom: 44px; margin-top:11px; margin-bottom: 11px;">
 
         <div class="row ">
+            <div class="col-2"></div>
+            <div class="col-md-8 " style="border:1px dashed rgba(255, 0, 0, 0.192); ">
+                <div class="row  ">
+                    <!-- Icon Row -->
+                    <div class="col-md-12">
+                        <div class="grad1">
+                            <div style="width:70%; display:inline-block;">
+                                <!-- Fron End Row -->
+                                <img id="i-html" class="icons dev_icons-spacing" src="./images/Front_End-Icons/HTML-Logo.svg" alt="HTML Icon">
+                                <img id="i-css" class="icons dev_icons-spacing" src="./images/Front_End-Icons/CSS-Logo-4pn.png" alt="CSS Icon">
+                                <img id="i-js" class="icons dev_icons-spacing" src="./images/Front_End-Icons/JS-Logo.svg" alt="Javascript Icon">
+                                <img id="i-jq" class="icons dev_icons-spacing" src="./images/Front_End-Icons/jQuery-Logo.svg " alt="jQuery Icon">
+                                <img id="i-boot" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Boostrap-Logo.svg" alt="Bootstrap Icon " style="vertical-align:middle ">
+                                <img id="i-matt" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Materialize-Logo.svg" alt="Materialize Icon ">
+                                <!-- Node -->
+                                <img id="i-node" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Node_Icon.png " alt="Node Icon ">
+                                <img id="i-react" class="icons dev_icons-spacing" src="./images/Front_End-Icons/React_Logo.png " alt="React Icon ">
+                                <img id="i-exp" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Express-Logo.svg" alt="Express Icon ">
+                                <img id="i-ang" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Angular-Logo.svg" alt="Angular Icon ">
+                                <img id="i-webp" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Webpack-Logo.svg" alt="Webpack Icon ">
+                                <img id="i-npm" class="icons dev_icons-spacing" src="./images/Front_End-Icons/NPM-Logo.svg " alt="NPM Icon ">
+                                <img id="i-seq" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Sequelize-Logo.svg" alt="Sequelize Icon ">
+                                <!-- Back End -->
+                                <img id="i-mongo" class="icons dev_icons-spacing" src="./images/Front_End-Icons/MongoDb-Logo.svg" alt="MongoDB Icon ">
+                                <img id="i-mlab" class="icons dev_icons-spacing" src="./images/Front_End-Icons/mLab-Logo.svg " alt="mLab Icon ">
+                                <img id="i-fire" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Firebase-Logo.svg" alt="Firebase Icon ">
+                                <img id="i-mysql" class="icons dev_icons-spacing" src="./images/Front_End-Icons/mySQL-Logo.svg " alt="MySQL Icon ">
+                                <img id="i-kairos" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Kairos-Logo.svg " alt="Kairos Icon ">
+                                <img id="i-face" class="icons dev_icons-spacing" src="./images/Front_End-Icons/FacePlus-Logo.svg" alt="FacePlus Icon ">
+                                <img id="i-wpress" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Wordpress-Logo.svg" alt="Wordpress Icon ">
+                                <img id="i-sqsp" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Squarespace-Logo.svg" alt="Squarespace Icon ">
+                                <img id="i-heroku" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Heroku-Logo.svg" alt="Heroku Icon ">
+                                <img id="i-gith" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Github-Logo.svg " alt="Github Icon ">
+                                <img id="i-bit" class="icons dev_icons-spacing" src="./images/Front_End-Icons/Bitbucket-Logo.svg" alt="Bitbucket Icon ">
+
+                            </div>
+                            <div style="width: 29%; height: 100%; vertical-align: top ;display: inline-block;">
+
+                                <div style="width:100%; height: 77px; margin-bottom: 22px; background-image: url(./wormz.png); border: rgb(255, 209, 209) 4px double; border-radius: 4px; padding: 11px;border-top-right-radius: 44px; position: relative">
+
+                                    <h1 class="i-css">CSS</h1>
+                                    <h1 class="i-fire">Firebase</h1>
+                                    <h1 class="i-html">HTML</h1>
+                                    <h1 class="i-js">Javascript</h1>
+                                    <h1 class="i-jq">jQuery</h1>
+                                    <h1 class="i-boot">Bootstrap</h1>
+                                    <h1 class="i-matt">Materialize</h1>
+                                    <h1 class="i-node">Node.js</h1>
+                                    <h1 class="i-react">React</h1>
+                                    <h1 class="i-exp">Express</h1>
+                                    <h1 class="i-ang">Angular</h1>
+                                    <h1 class="i-webp">Webpack</h1>
+                                    <h1 class="i-npm">NPM</h1>
+                                    <h1 class="i-seq">Sequelize</h1>
+                                    <h1 class="i-mongo">MongoDB</h1>
+                                    <h1 class="i-mlab">mLab</h1>
+                                    <h1 class="i-mysql">MySQL</h1>
+                                    <h1 class="i-kairos">Kairos</h1>
+                                    <h1 class="i-face">FacePlus</h1>
+                                    <h1 class="i-wpress">Wordpress</h1>
+                                    <h1 class="i-sqsp">Squarespace</h1>
+                                    <h1 class="i-heroku">Heroku</h1>
+                                    <h1 class="i-gith">Github</h1>
+                                    <h1 class="i-bit">Bitbucket</h1>
+                                </div>
+                                <div style="width: 100%; height: 60%; border: rgba(255, 209, 209, 0.39) 4px inset; padding: 11px;border-bottom-left-radius: 44px ">
+                                    <p style=" font-family: 'Lobster', cursive; color: black; font-size:medium; ">Fullstack developer. INcorperating branding balh blah UI/UX . Branding. design Creativity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BT Box -->
+                    <div class="col-md-6 ">
+
+                        <div class="code hover_icon grid-item " style="height:500px; padding: 15px; background-image: url(./images/BT_Pads-Card.png); background-size: cover; background-position: center; position: relative">
+
+                            <a href="https://beattree.herokuapp.com/" target="_blank">
+                                <img src='./images/Tech_Icons/code_icon.svg' style="width: 33px; ">
+                            </a>
+
+                            <div style="position: absolute; top: 15px; left:0px; right: 0px;">
+                                <img src=" ./images/Design/BT-Load_logo.png " style=" width: 70%; margin-left:auto; margin-right: auto; display: block; " alt="Beat-Tree ">
+
+                                <h1 style=" font-family: 'Lobster', cursive; color: black; text-align: center ">Beat Tree</h1>
+                            </div>
+                            <div class="holder">
+                                <div style="position: absolute; bottom:15px; left: 15px;right:15px; text-align: center">
+                                    <img src="./images/Front_End-Icons/HTML-Logo.svg " alt="HTML Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/CSS-Logo-4pn.png " alt="CSS Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/JS-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/jQuery-Logo.svg " alt="HTML Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Boostrap-Logo.svg " alt="CSS Icon " class="bt_icon-spacing " style="vertical-align:middle ">
+                                    <img src="./images/Front_End-Icons/Node_Icon.png " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/React_Logo.png " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Express-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Webpack-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/NPM-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Sequelize-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <!-- Back End -->
+                                    <img src="./images/Front_End-Icons/MongoDb-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/mLab-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Firebase-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Heroku-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Github-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- FP Box -->
+                    <div class="col-md-6" href="https://beattree.herokuapp.com/">
+                        <div class="code hover_icon grid-item " style="height:500px; padding: 15px; background-image: url(./images/FP_Home-Card.png); background-size: cover; background-position: center; position: relative">
+
+                            <a href='#'>
+                                <img src='./images/Tech_Icons/code_icon.svg' style="width: 33px; ">
+                            </a>
+
+                            <div style="position: absolute; top: 15px; left:0px; right: 0px;">
+                                <!-- <img src="./images/Design/facepal_logo_face.svg" style=" width: 60%; margin-left:auto; margin-right: auto; display: block; " alt="Beat-Tree "> -->
+
+                                <h1 style=" font-family: 'Lobster', cursive; color: black; text-align: center ">FacePal</h1>
+                            </div>
+                            <div class="holder">
+                                <div style="position: absolute; bottom:15px; left: 15px;right:15px; text-align: center">
+                                    <img src="./images/Front_End-Icons/HTML-Logo.svg " alt="HT " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/CSS-Logo-4pn.png " alt="C " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/JS-Logo.svg " alt="Javascript Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/jQuery-Logo.svg " alt="jQuery Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Materialize-Logo.svg " alt="Materialize Icon " class="bt_icon-spacing ">
+                                    <!-- Node -->
+                                    <img src="./images/Front_End-Icons/Node_Icon.png " alt="Node Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Express-Logo.svg " alt="Express Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Angular-Logo.svg " alt="Angualar Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Webpack-Logo.svg " alt="Webpack Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/NPM-Logo.svg " alt="NPM Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Sequelize-Logo.svg " alt="Sequelize " class="bt_icon-spacing ">
+                                    <!-- Back End -->
+                                    <img src="./images/Front_End-Icons/Firebase-Logo.svg " alt="Firebase Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Kairos-Logo.svg " alt="Kairos Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/FacePlus-Logo.svg " alt="FacePlus Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Heroku-Logo.svg " alt="Heroku Icon " class="bt_icon-spacing ">
+                                    <img src="./images/Front_End-Icons/Github-Logo.svg " alt="Github Icon " class="bt_icon-spacing ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
-            <div class="col-md-6 photo ">
-                <div class="outer-box " style="background-image: url(./images/Photo/RockTwins.jpg) ; background-size: cover;
-                        " alt="Rocafeller Plaza, NYC "></div>
-            </div>
-            <div class="col-md-4 video ">
-                <div class="outer-box ">
-                    Video
                 </div>
+
             </div>
-            <div class="col-md-4 code ">
-                <div class="outer-box ">
-                    Git, mySQL, HTML, CSS, JavaScript, jQuery, npm, express, handlebars
-                </div>
-            </div>
-            <div class="col-md-4 audio ">
-                <div class="outer-box ">
-                    Audio
-                </div>
-            </div>
-            <div class="col-md-4 illustration ">
-                <div class="outer-box ">
-                    Illi
-                </div>
-            </div>
-            <div class="col-md-4 tech ">
-                <div class="outer-box ">
-                    Prog
-                </div>
-            </div>
-            <div class="col-md-4 audio ">
-                <div class="outer-box ">
-                    Audio
-                </div>
-            </div>
-            <div class="col-md-3 audio ">
-                <div class="outer-box ">
-                    Audio
+
+            <div class="col-2 "></div>
+        </div>
+
+    </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- Red Box Background -->
+    <div class="parallax_two ">
+        <!-- Design Title -->
+        <div class="container-fluid " style="position: relative; height: 100%; ">
+            <div class="row design_scroll-anchor " style="position: absolute; bottom:0px ; width:100% ">
+                <div class="col-md-2 "></div>
+                <div class="col-md-1 ">
+                    <img src='./images/Design_Title.png' style="height:70px " />
                 </div>
             </div>
         </div>
     </div>
+    <!-- Design Container -->
+    <div class="container-fluid " style="background-image:url(./wormz-red.gif) ; padding-top: 55px;padding-bottom: 44px; margin: 11px 0 11px 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+        <div class="row ">
+            <div class="col-md-2 "></div>
+            <div class="col-md-8 " style="border:1px dotted red ">
+
+                <!-- Icon Row -->
+                <div class="row grad1 " style=" height:fit-content; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+                    <div class="col-4 ">
+                        <div style="width: 100%; height: 100%; background-image: url(./wormz.png); border: rgb(255, 209,209) 4px double; border-radius: 4px; padding: 11px; ">
+                            <h1 style="font-family: 'Lobster', cursive; color: black; font-size:x-large; ">Design</h1>
+                            <p style=" font-family: 'Lobster', cursive; color: black; font-size:medium; ">My absolute favortie - graphic design, vector grapchis, and 3d rendering. Giving branding a bit extra!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 " style="height: fit-content ">
+                        <!-- Design Icons -->
+                        <img class="icons " src="./images/Design-Icons/illustrator-icon.png " alt="Javascript Icon " style="width: 12%; margin: 0 4% 4% 0; float:left ">
+                        <img class="icons " src="./images/Design-Icons/indesign-icon.png " alt="Javascript Icon " style="width: 12%; margin: 0 4% 4% 0; float:left ">
+
+                        <!-- CAD and 3D printing-->
+                        <img class="icons " src="./images/Design-Icons/MatterControl-Logo.png " alt="Javascript Icon " style="width: 12%; margin: 0 4% 4% 0; float:left ">
+                        <img class="icons " src="./images/Design-Icons/SketchUp-Logo.svg " alt="Javascript Icon " style="width: 12%; margin: 0 4% 4% 0; float:left ">
+                        <img class="icons " src="./images/Design-Icons/TinkerCAD-Logo.svg " alt="Javascript Icon " style="width: 12%; margin: 0 4% 4% 0; float:left ">
+                        <img class="icons " src="./images/Design-Icons/AutoDesk-Logo.png " alt="Javascript Icon " style="width: 12%; margin: 0 4% 4% 0; float:left ">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-2 "></div>
+            <!-- Design Gallery -->
+            <div class="col-md-2 "></div>
+            <div class="col-md-8 grid " style="border:1px dotted red; padding: 0px ">
+
+
+                <div class="grid-item grid-item--width2 grid-item--height4 ">X</div>
+                <!-- Beat-Tree Logo -->
+                <div class="grid-item grid-item--width5 grid-item--height5 illi hover_icon " style="background-image:url(./images/Design/BT-Load_logo.png); background-size: 100% ;background-color: white ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/design_icon.svg' style=" height:33px ; " />
+                    </a>
+                </div>
+                <div class="grid-item grid-item--width2 grid-item--height4 ">X</div>
+
+                <!-- Convey Logo -->
+                <div class="grid-item grid-item--width3 grid-item--height3 illi hover_icon " style="background-image:url(./images/Design/CI_logo_600x600.png); background-size: 90%; background-color: lightgray; background-position: center; background-repeat:no-repeat ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/design_icon.svg' style="height:33px " />
+                    </a>
+                </div>
+                <div class="grid-item grid-item--width4 grid-item--height4 illi hover_icon " style="background-image:url(./images/Design/Wild_Thymes-Logo.svg); background-size: 100% ;background-color: white; background-repeat: no-repeat;background-position: center ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/design_icon.svg' style="height:33px " />
+                    </a>
+                </div>
+                <div class="grid-item grid-item--width3 grid-item--height3 illi hover_icon ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/design_icon.svg' style="height:33px " />
+                    </a>
+                </div>
+
+                <div class="grid-item grid-item--width3 grid-item--height3 illi hover_icon ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/design_icon.svg' style="height:33px " />
+                    </a>
+                </div>
+                <div class="grid-item grid-item--width9 grid-item--height4 illi hover_icon " style="background-color: darkslategray; background-image: url(./images/Design/3DDC.png); background-size: 100%; background-position: center; background-repeat: no-repeat; ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/design_icon.svg' style="height:33px " />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 "></div>
+
+        </div>
     </div>
- -->
-    <footer class="footer-style ">
+    </div>
+
+    <!-- Armenia Background -->
+    <div class="parallax_three ">
+        <!-- Media Title -->
+        <div class="container-fluid " style="position: relative; height: 100%; ">
+            <div class="row media_scroll-anchor " style="position: absolute; bottom:0px ; width:100% ">
+                <div class="col-md-2 "></div>
+                <div class="col-md-10 ">
+                    <img src='./images/Media_Title.png' style="height:70px " />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Media Container -->
+    <div class="container-fluid " style="background-image:url(./wormz-green.gif) ; padding-top: 22px; padding-top: 55px; padding-bottom: 44px;margin: 11px 0 11px 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+        <div class="row ">
+            <div class="col-md-2 "></div>
+            <div class="col-md-8 ">
+                <!-- Icon Row -->
+                <div class="row grad1 " style=" height:fit-content; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+
+                    <div class="col-6 ">
+                        <div style="width: 100%; height: 100%; background-color: white; border: rgba(255, 209, 209, 0.705) 4px double; border-radius: 4px; padding: 11px; ">
+                            <h1 style="font-family: 'Lobster', cursive; color: black; font-size:x-large; "></h1>
+
+                            <p style=" font-family: 'Lobster', cursive; color: black; font-size:medium; ">My absolute favortie - graphic design, vector grapchis, and 3d rendering. Giving branding a bit extra!
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 " style="height: fit-content ">
+                        <!-- Streaming Media Icons -->
+                        <img class="icons " src="./images/Media-Icons/Wowza-Logo.svg " alt="Wowza Icon " style="width:19%; margin:0 3% 3% 3%; float: left ">
+                        <img class="icons " src="./images/Media-Icons/Youtube-Logo.svg " alt="CSS Icon " style="width: 19%; margin: 0 3% 3% 3%; float: left ">
+                        <img class="icons " src="./images/Media-Icons/Livestream-Logo.svg " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/Teradek-Logo.png " alt="HTML Icon " style="width:19%; margin: 0 3% 3% 3%; float: left ">
+                        <!-- Audio Icons -->
+                        <img class="icons " src="./images/Media-Icons/Reason-Logo.svg " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/Sonar-Logo.png " alt="Javascript Icon " style="width:19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/Protools-Logo.png " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/audition-icon.png " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <!-- Video Icons -->
+                        <img class="icons " src="./images/Media-Icons/premiere-pro-icon.png " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/after-effects-icon.png " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/encore-icon.png " alt="Javascript Icon " style="width:19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/prelude-icon.png " alt="Javascript Icon " style="width:19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/AdobeMediaEncoder-Logo.svg " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <!-- Photo -->
+                        <img class="icons " src="./images/Media-Icons/photoshop-icon.png " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/lightroom-icon.png " alt="Javascript Icon " style="width: 19%; margin:0 3% 3% 3%; float:left ">
+                        <img class="icons " src="./images/Media-Icons/bridge-icon.png " alt="Javascript Icon " style="width:19%; margin:0 3% 3% 3%; float:left ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 "></div>
+
+            <!-- Multimedia Gallery -->
+            <div class="col-md-2 "></div>
+            <div class="col-md-8 grid " style="border:1px dotted red; padding: 0px ">
+                <div class="grid-item grid-item--width4 grid-item--height5 photo hover_icon " style="background-image: url(./images/Photo/TINT-windowauto.jpg) ; background-size: cover; background-position: center; " alt="Cornwall, UK ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
+                    </a>
+                </div>
+                <!-- PIC //// Dogs  -->
+                <div class="grid-item grid-item--width5 grid-item--height3 photo hover_icon " style="background-image: url(./images/Photo/DSC04028_edited_crop_rotate.png) ; background-size: cover; background-position: center; " alt="Armenia ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
+                    </a>
+                </div>
+                <!-- PIC //// Tribeca  -->
+                <div class="grid-item grid-item--width3 grid-item--height5 photo hover_icon " style="background-image: url(./images/Photo/Evil.jpg) ; background-size: cover; background-position: center; " alt="Tribeca, NYC ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
+                    </a>
+                </div>
+                <!-- PIC //// Austria  -->
+                <div class="grid-item grid-item--width4 grid-item--height3 photo hover_icon " style="background-image: url(./images/Photo/bobmarg-Auto.jpg) ; background-size: cover; background-position: center; " alt="Cornwall, UK ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
+                    </a>
+                </div>
+                <!-- PIC //// Florence  -->
+                <div class="grid-item grid-item--width5 grid-item--height4 photo hover_icon " style="background-image:url(./images/Photo/FlorenceWindow.jpg) ; background-size: cover; background-position: center; " alt="Cornwall, UK ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
+                    </a>
+                </div>
+                <!-- PIC //// Chella  -->
+                <div class="grid-item grid-item--width3 grid-item--height4 photo hover_icon " style="background-image:url(./images/Photo/Chella.jpg) ; background-size: cover; background-position: center; " alt="Indio, CA ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
+                    </a>
+                </div>
+
+                <!-- PIC //// Garmich  -->
+                <div class="grid-item grid-item--width6 grid-item--height4 photo hover_icon " style="background-image:url(./images/Photo/garmishfbainAUTO.jpg) ; background-size:cover; background-position: center; " alt="Garmisch ">
+                    <a href='#'>
+                        <img src='./images/Tech_Icons/camera.svg' style="height:33px " />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 "></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer-style info_scroll-anchor " style="padding-top:111px ">
+        <div class="container-fluid " style=" font-family: 'Lobster', cursive; color: white; font-size: x-large ">
+            <div class="row ">
+                <div class="col-md-2 "></div>
+                <div class="col-md-10 ">
+                    <p>Garvis Sloane</p>
+                    <p>(585) 259 - 0368</p>
+                    <p>
+                        Email:
+                        <a href="mailto:GarvisWBS@gmail.com?Subject=Hello%20again " target="_top ">Send Mail</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button type="button " class="btn top_scroll-btn hover_text " style="float:right; ">
+            <img src='./images/Navigation_Icons/Up_Arrow.svg' style="height:33px " />
+            <p class="nav_text-top "> Top </p>
+        </button>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
-        crossorigin="anonymous "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
-        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
     <!--Masonry-->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js "></script>
     <script src="./js/myScript.js "></script>

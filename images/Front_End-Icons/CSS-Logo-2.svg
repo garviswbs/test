@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="99.5" y1="100" x2="99.5" y2="83"/>
+	<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="99" y1="100.5" x2="114" y2="100.5"/>
+</g>
+<g id="Layer_2">
+	<g id="layer1" transform="translate(-193.633,-276.3622)" inkscape:groupmode="layer" inkscape:label="Calque 1">
+		<g id="g3013" transform="translate(119,276.3622)">
+			<polygon id="polygon2989" fill="#264DE4" points="246.377,39.694 233.504,183.9 175.641,199.942 117.937,183.923 105.078,39.694 
+							"/>
+			<polygon id="polygon2991" fill="#2965F1" points="222.484,174.719 233.484,51.487 175.727,51.487 175.727,187.681 			"/>
+			<polygon id="polygon2993" fill="#EBEBEB" points="134.556,104.979 136.142,122.669 175.727,122.669 175.727,104.979 			"/>
+			<polygon id="polygon2995" fill="#EBEBEB" points="175.727,69.177 175.665,69.177 131.372,69.177 132.978,86.866 175.727,86.866 
+							"/>
+			<polygon id="polygon2997" fill="#EBEBEB" points="175.727,169.325 175.727,150.921 175.65,150.941 155.949,145.621 
+				154.69,131.514 145.117,131.514 136.933,131.514 139.41,159.287 175.647,169.348 			"/>
+			<path id="path2999" inkscape:connector-curvature="0" d="M138.331,0.499h21.425v8.959h-12.465v8.959h12.465v8.959h-21.425V0.499z
+				"/>
+			<path id="path3001" inkscape:connector-curvature="0" d="M164.04,0.499h21.425V8.29H173v1.558h12.465v17.919H164.04v-8.181
+				h12.467v-1.558H164.04V0.499z"/>
+			<path id="path3003" inkscape:connector-curvature="0" d="M189.749,0.499h21.426V8.29H198.71v1.558h12.465v17.919h-21.426v-8.181
+				h12.466v-1.558h-12.466V0.499z"/>
+			<polygon id="polygon3005" fill="#FFFFFF" points="197.448,122.669 195.394,145.609 175.665,150.935 175.665,169.339 
+				211.93,159.287 212.195,156.298 216.353,109.729 216.785,104.979 219.977,69.177 175.665,69.177 175.665,86.866 200.592,86.866 
+				198.982,104.979 175.665,104.979 175.665,122.669 			"/>
+		</g>
+	</g>
+</g>
+</svg>
